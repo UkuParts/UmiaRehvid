@@ -1,24 +1,28 @@
+body{
+	margin: 0;
+}
 .nav{
 	display: flex;
-	background-color: Gray;
+	background-color: #C2D6EC;
 	overflow: hidden;
 }
 .nav a{
 	float: left;
-	color: #f2f2f2;
+	color: #525252;
 	text-align: center;
 	text-decoration: none;
-	padding: 14px 16px;
-	font-size: 17px;
+	padding: 1vw 3vw;
+	font-size: 2vw;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .nav a:hover{
-	background-color: #ddd;
+	background-color: #9CBCE0;
 	color: black;
 }
 .nav a.active{
-	background-color: #04AA6D;
-	color: white;
+	background-color: #ECD7C2;
+	color: #525252;
 }
-p{
-	color: #de0004;
+.container{
+	background-color: gray;
 }

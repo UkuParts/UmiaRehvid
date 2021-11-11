@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+<title>Umia Rehvid</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<link rel="stylesheet" type="text/css" href="hinnakiri.css">
+</head>
+
+<body>
+
+<!-- Pane lingid tööle.-->
+<div class="nav">
+<a href="esileht.html">Esileht</a>
+<a href="https://www.google.com">Kontakt</a>
+<a class="active" href="hinnakiri.html">Hinnakiri</a>
+<a href="https://www.google.com">Info</a>
+</div>
+
+<script src="rehvid.js"></script>
+<div class="container" style="background-color: white";">
+
+<label for="laius">Laius:</label>
+<select name="laius" id="laius">
+	<option value="default">default</option>
+	<option value="135">135</option>
+	<option value="135">145</option>
+	<option value="135">155</option>
+</select>
+
+<label for="kõrgus">Kõrgus:</label>
+<select name="kõrgus" id="kõrgus">
+	<option value="default">default</option>
+	<option value="35">35</option>
+	<option value="40">40</option>
+	<option value="45">45</option>
+</select>
+
+<label for="diameeter">Diameeter:</label>
+<select name="diameeter" id="diameeter">
+	<option value="default">default</option>
+	<option value="R12C">R12C</option>
+	<option value="R13">R13</option>
+	<option value="R13C">R13C</option>
+</select>
+
+<label for="tootja">Tootja:</label>
+<select name="tootja" id="tootja">
+	<option value="default">default</option>
+	<option value="Barum">Barum</option>
+	<option value="Continental">Continental</option>
+	<option value="Dunlop">Dunlop</option>
+</select>
+
+<label for="tüüp">Tüüp:</label>
+<select name="tüüp" id="tüüp">
+	<option value="default">default</option>
+	<option value="lamell">lamell</option>
+	<option value="naast">naast</option>
+	<option value="suvi">suvi</option>
+</select>
+
+<button type="button" onclick="getValue()">Otsi</button>
+
+</div>
+
+
+<div class="container">
+<br>
+<div class="row">
+<div style="flex: 85%;">
+<a href="esileht.html">ESILEHT</a>
+<br>
+<a href="https://www.google.com">KONTAKT</a>
+<br>
+<a href="https://www.google.com">HINNAKIRI</a>
+<br>
+<a href="https://www.google.com">INFO</a>
+</div>
+<div style="flex: 15%;">
+<div class="jalus" id="test">AADRESS:</div>
+<div class="jalus">Linnu tee 14</div>
+<br>
+<div class="jalus">TELEFON:</div>
+<div class="jalus">+372 5097449</div>
+<div class="jalus">+372 6557098</div>
+</div>
+</div>
+</div>
+
+<center><p class="year">©2021</p></center>
+<br>
+</body>
+
+</html>

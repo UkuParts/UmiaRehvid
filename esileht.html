@@ -6,16 +6,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, inital-scale=1.0">
 <link rel="stylesheet" type="text/css" href="esileht.css">
+<script src="nav.js"></script>
 </head>
 
-<body>
+<body onload="gen(0)">
 
 <!-- Pane lingid tööle.-->
-<div class="nav">
-<a class="active" href="esileht.html">Esileht</a>
-<a href="https://www.google.com">Kontakt</a>
-<a href="hinnakiri.html">Hinnakiri</a>
-<a href="https://www.google.com">Info</a>
+<div class="nav" id="nav">
 </div>
 
 <!-- Lisa kirjeldus.-->
@@ -27,19 +24,10 @@
 </div>
 
 <!-- Lisa kõik logod. Tee ilusaks. Video?-->
-<div class="container" style="background-color: #fffff0;">
-<br>
-<div class="row">
-<div style="flex: 25%; padding: 30px 100px;">
+<div class="container" style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
 <img src="https://www.sava-tires.com/sava/emea/Images/sava-logo_tcm2095-114652.png" alt="test">
-</div>
-<div style="flex: 41%; padding: 30px 0px">
 <img src="https://www.goodyear.com/content/dam/gy-com/images/logo/logoIntl.png" alt="test">
-</div>
-<div style="flex: 34%;">
-<img src="https://pluspng.com/img-png/michelin-tires-logo-png--3739.png" alt="test">
-</div>
-</div>
+<img src="https://pluspng.com/img-png/michelin-tires-logo-png--3739.png" alt="test" width: "10"; heigth: "10"; viewBox="0 0 50 50">
 </div>
 
 <div class="container">

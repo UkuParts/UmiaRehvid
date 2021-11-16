@@ -17,6 +17,8 @@ body{
 * {
     box-sizing: border-box;
 }
+
+/*
 .nav {
     
     overflow: hidden;
@@ -42,8 +44,8 @@ body{
 	background-color: #ECD7C2;
 	color: #525252;
 }
-/* On screens that are 992px or less, 
-set the background color to blue */
+ On screens that are 992px or less, 
+set the background color to blue 
 @media screen and (max-width: 992px){
     
     .column {
@@ -51,9 +53,9 @@ set the background color to blue */
     }
     
 }
-/* On screens that are 600px wide or less,
+ On screens that are 600px wide or less,
  make the columns stack on top of each other instead of
-  next to each other */
+  next to each other 
 @media screen and (max-width: 600px){
     body {
         background-color: #C2D6EC;
@@ -66,6 +68,7 @@ set the background color to blue */
         width: 100%;
     }
 }
+*/
 
 .page-container {
     display: grid;

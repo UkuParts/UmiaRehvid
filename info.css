@@ -17,12 +17,12 @@ body{
 * {
     box-sizing: border-box;
 }
-.topnav {
+.nav {
     
     overflow: hidden;
     background-color: #C2D6EC;
 }
-.topnav a {
+.nav a {
     float: left;
     display: block;
     color: #525252;
@@ -34,11 +34,11 @@ body{
 }
 
 
-.topnav a:hover{
+.nav a:hover{
 	background-color: #9CBCE0;
 	color: black;
 }
-.topnav a.active{
+.nav a.active{
 	background-color: #ECD7C2;
 	color: #525252;
 }
@@ -61,7 +61,7 @@ set the background color to blue */
     .column {
         width: 100%;
     }
-    .topnav a {
+    .nav a {
         float: none;
         width: 100%;
     }

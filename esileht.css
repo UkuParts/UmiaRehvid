@@ -2,6 +2,7 @@
 body{
 	margin: 0;
 	background-color: gray;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 img{
 	max-width: 100%;
@@ -35,7 +36,6 @@ img{
 }
 .container{
 	padding: 1px;
-	background-color: gray;
 	position: relative;
 }
 .container a{

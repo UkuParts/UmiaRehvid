@@ -1,11 +1,6 @@
 table, th, td {
   border: 1px solid black;
 }
-.year{
-	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12px;
-}
 .row{
 	display: flex
 }

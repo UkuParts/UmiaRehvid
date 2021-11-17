@@ -6,67 +6,17 @@ html {
     background-size: cover;
 }
 body{
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    background-color: transparent !important;
+    height: 100%;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.landscape{
-    width: 100%;
-    padding: 0px;
-}
-.nav{
-    display: flex;
-    background-color: rgb(194, 214, 236);
-    overflow: hidden;
-}
-.nav a{
-    float: left;
-    color: #525252;
-    text-align: center;
-    text-decoration: none;
-    padding: 1vw 3vw;
-    font-size: 2vw;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.nav a:hover{
-    background-color: #9CBCE0;
-    color: black;
-}
-.nav a.active{
-    background-color: rgba(236, 215, 194, 0.85);
-    color: #525252;
-}
-.container{
-    padding: 1px;
-    position: relative;
-}
-.container a{
-    margin: 50px;
-    line-height: 1.5;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
 
-}
-.container a:hover{
-    text-decoration: underline;
-    color: #ECF4FA;
-}
 .row{
     display: flex
 }
-.jalus{
-    padding: 0px 0px;
-    color: white;
-    font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
 
+.container{
+    background-color: transparent !important;
 }
-
 
 /*Kontaktilehe css*/
 .contact{
@@ -120,4 +70,14 @@ img{
     border: 1px solid darkgray;
     border-radius: 4px;
     padding: 5px;
+}
+.row{
+    padding-top: 10px;
+    background-color: rgba(82, 82, 82, 0.95);
+}
+.aasta{
+    background-color: rgba(82, 82, 82, 0.95);
+    display: flex;
+    justify-content: center;
+
 }

@@ -1,9 +1,4 @@
 /* Vaata päise fondid üle. Vaata värvid üle.*/
-body{
-	margin: 0;
-	background-color: gray;
-	font-family: 'Source Sans Pro', sans-serif;
-}
 img{
 	max-width: 100%;
 	max-height: 100%;
@@ -59,13 +54,13 @@ img{
     grid-gap: 1em;
     grid-row-gap: 3.5em;
     margin-top: 20px;
-    
+	background-color: white;
 	justify-items: center;
 
 }
 .box1{
   grid-column: 1/4;
-  color: white;
+  color: black;
   font-weight: bolder;
   font-size: 2rem;
   justify-items: start;

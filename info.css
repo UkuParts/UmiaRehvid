@@ -1,44 +1,86 @@
-/* Vaata päise fondid üle. Vaata värvid üle.*/
 
-.column {
-    float: left;
-    width: 25%;
-    padding: 20px;
+.container{
+	padding: 1px;
+	position: relative;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.container a{
+	margin: 50px;
+	line-height: 1.5;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
-* {
-    box-sizing: border-box;
+.container a:hover{
+	text-decoration: underline;
+	color: #ECF4FA;
 }
+
+.year{
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+}
+.row{
+	display: flex
+}
+.jalus{
+	padding: 0px 0px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-auto-rows:minmax(1000px, 1000px);
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 1em;
+    grid-template-columns: repeat(7,1fr);
+    grid-auto-rows:minmax(100px, auto);
+    
+    grid-gap: 1.7em;
     margin-top: 20px;
-  
+    padding: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
 }
-.grid > div{
-  background: #eee;
-  padding: 1em;
-}
-.grid > div:nth-child(odd){
-  background: #ddd;
-}
+
 
 .box1{
   grid-column: 1/5;
   color: rgb(34, 31, 31);
   font-size: 0.87em;
   line-height: 0.4em;
+  border: 1.5px solid #e0e0e0;
+  padding: 1em;
+
   
 }
 .box2{
   grid-column: 5/6;
+  border: 1.5px solid #e0e0e0;
+  padding: 1em;
 }
 
+.box3{
+  grid-column: 6/8;
+  background: #CED3C7;
+  padding: 1em;
+  
+}
+
+.box5{
+  background: #FFDFE5;
+  padding: 1em;
+}
+
+.box6{
+  
+  padding: 1em; 
+  border: 1.5px solid #e0e0e0;
+  grid-column: 3/6;
+  
+}

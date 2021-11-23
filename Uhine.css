@@ -32,6 +32,13 @@ img{
     background-color: #ECD7C2;
     color: #525252;
 }
+@media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
 .container{
     padding: 1px;
     position: relative;

@@ -24,6 +24,10 @@ img{
 	color: #ECF4FA;
 }
 
+.tutvustus {
+	background-color: #efbe66;
+}
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

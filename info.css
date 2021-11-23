@@ -7,10 +7,10 @@
     grid-gap: 1.7em;
     
     padding: 1em;
-    background-color: #f5ebe0;
+    background-color: #efbe66;
 
-    font-size: 0.87em;
-    line-height: 0.4em;
+    font-size: 0.97em;
+    line-height: 0.5em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .grid h2{
@@ -36,7 +36,7 @@
   
   border: 1.5px solid #e0e0e0;
   padding: 1em;
-  margin-left: 30px;
+  margin-left: 20px;
   
   
 }
@@ -47,16 +47,16 @@
 
 .box3{
   grid-column: 6/8;
-  background: #CED3C7;
+  background: #003333;
   padding: 1em;
-  margin-right: 30px;
-  
+  margin-right: 20px;
+  color:white;
 }
 .box4{
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .box5{
-  background: #FFDFE5;
+  background: #ffa500;
   padding: 1em;
 }
 

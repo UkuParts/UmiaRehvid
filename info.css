@@ -7,7 +7,7 @@
     grid-gap: 1.7em;
     
     padding: 1em;
-    background-color: white;
+    background-color: #f5ebe0;
 
     font-size: 0.87em;
     line-height: 0.4em;
@@ -66,10 +66,15 @@
   border: 1.5px solid #e0e0e0;
   grid-column: 3/6;
   
+  
 }
 .box7 {
-  grid-column: 6/8;
+  grid-column: 6/7;
   margin-right: 30px;
+}
+.box8{
+  margin-right: 30px;
+  grid-column: 7/8;
 }
 
 

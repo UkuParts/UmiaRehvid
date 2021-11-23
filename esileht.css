@@ -7,28 +7,6 @@ img{
 	width: 100%;
 	padding: 0px;
 }
-.nav{
-	display: flex;
-	background-color: #C2D6EC;
-	overflow: hidden;
-}
-.nav a{
-	float: left;
-	color: #525252;
-	text-align: center;
-	text-decoration: none;
-	padding: 1vw 3vw;
-	font-size: 2vw;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-.nav a:hover{
-	background-color: #9CBCE0;
-	color: black;
-}
-.nav a.active{
-	background-color: #ECD7C2;
-	color: #525252;
-}
 .container{
 	padding: 1px;
 	position: relative;

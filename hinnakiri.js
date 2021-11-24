@@ -1,3 +1,4 @@
+// list, mis sisaldab erinevate otsingu parameetrite muutujate nimesid
 let val = ["laiusValue", "kõrgusValue", "diameeterValue", "tootjaValue", "tüüpValue"];
 
 function otsi(){
@@ -14,35 +15,36 @@ function otsi(){
 	tüüpField = document.getElementById("tüüp");
 	tüüpValue = tüüpField.options[tüüpField.selectedIndex].value;
 	
-	// https://stackoverflow.com/questions/14643617/create-table-using-javascript
+	// genereerib tabeli parameetrite põhjal
+	// viide: https://stackoverflow.com/questions/14643617/create-table-using-javascript
 	const body = document.getElementById("endIt"), tbl = document.createElement('table');
-	body.innerHTML = "";
+	body.innerHTML = ""; // teeb tabeli tühjaks; vastasel juhul võib tekkida olukord, kus lehel on korraga mitu tabelit
 	tbl.style.border = '1px solid black';
-	let count = 0;
-	for (let i = 0; i < killMe1.length; i++){
+	let count = 0; // parameetritele vastavate rehvide arv + 1, +1 tuleb tabeli kõige ülemisest reast, mida loetakse ka osaks tabelist
+	for (let i = 0; i < db1.length; i++){
 		let tester = true;
 		for (let j = 0; j < 5; j++){
-			if(eval(val[j]) == "default"){
+			if(eval(val[j]) == "default"){ // eval(val[j]) on j-inda parameetri väärtus
 				continue;
 			}
-			let c = killMe1[i][j];
+			let c = db1[i][j];
 			if(c != "default" && c != eval(val[j])){
 				tester = false;
 				break;
 			}
 		}
-		if(tester == true){
+		if(tester == true){ // juhul kui i-s rehv vastab parameetritele lisatakse see tabeli lõppu
 			count++;
 			const tr = tbl.insertRow();
 			for(k = 0; k < 8; k++){
 				const td = tr.insertCell();
-				td.appendChild(document.createTextNode(killMe2[i][k]));
+				td.appendChild(document.createTextNode(db2[i][k]));
 				td.style.border = '1px solid black';
 			}
 		}
 	}
 	body.appendChild(tbl);
-	if(count == 1){
+	if(count == 1){ // kui parameetritele vastavaid rehve ei leitud
 		body.innerHTML = "<div>Parameetritele vastavat tulemust ei leitud!</div>";
 	}
 }

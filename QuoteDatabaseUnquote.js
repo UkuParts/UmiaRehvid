@@ -1,4 +1,8 @@
-let killMe1 = [["default", "default", "default", "default", "default"],
+// mis juhtub kui ei ole lubatud kasutada andmebaase
+// db1 sisaldab rehvidele vastavaid parameetreid
+// db2 sisaldab rehvidele vastavaid andmeid
+// iga db1 index vastab samale db2 index-ile i.e. db1[3]-le vastab db2[3]
+let db1 = [["default", "default", "default", "default", "default"],
 ["135", "80", "R13", "Barum", "lamell"],
 ["145", "80", "R13", "Barum", "lamell"],
 ["145", "70", "R13", "Barum", "lamell"],
@@ -33,7 +37,7 @@ let killMe1 = [["default", "default", "default", "default", "default"],
 ["185", "70", "R14", "Sava", "lamell"],
 ["185", "65", "R14", "Sava", "lamell"]
 ];
-let killMe2 = [["Kood", "Moot", "Index", "I", "Tootja", "Tüüp", "Hind", "Saadavus"],
+let db2 = [["Kood", "Moot", "Index", "I", "Tootja", "Tüüp", "Hind", "Saadavus"],
 ["1541126000", "135/80R13", "70T", "C G (71dB)", "BARUM Barum Polaris 3", "Lamell", "33.55€", "helista meile"],
 ["1541194000", "145/80R13", "75T", "C F (71dB)", "BARUM Barum Polaris 5", "Lamell", "38.43€", "helista meile"],
 ["1541196000", "145/70R13", "71T", "C F (71dB)", "BARUM Barum Polaris 5", "Lamell", "38.43€", "helista meile"],

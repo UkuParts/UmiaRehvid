@@ -11,6 +11,15 @@ table, th, td {
   border: 1px solid black;
   background-color: #ffd282;
 }
+.hinnakiri{
+	position: relative;
+	background-color: #efbe66;
+	margin: 0px 180px;
+}
+.gap{
+	height: 10px;
+	background-color: #efbe66;
+}
 .row{
 	display: flex
 }

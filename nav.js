@@ -1,4 +1,5 @@
 function gen(ac){
+	// genereerib ülemise navigatsiooniriba
 	// https://stackoverflow.com/questions/4772774/how-do-i-create-a-link-using-javascript
 	var a = document.createElement("a");
 	var text = document.createTextNode("Esileht"); 

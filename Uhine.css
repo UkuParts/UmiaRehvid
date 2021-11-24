@@ -68,3 +68,10 @@ img{
 	font-size: 12px;
 	text-align: center;
 }
+
+.tabel1{
+    flex: 85%;
+}
+.tabel2{
+    flex: 15%;
+}

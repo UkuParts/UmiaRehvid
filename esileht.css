@@ -40,6 +40,20 @@ img{
  
  
 }
+
+.meoleme{
+	margin-left: 50px;
+}
+.missioon{
+	margin-right: 50px;
+}
+.partnerid{
+	font-size: 95%;
+}
+
+.lisa{
+	enable-background:new 0 0 524.3 308;
+}
 .sava {
 	-webkit-user-select: none;
 	margin: auto;

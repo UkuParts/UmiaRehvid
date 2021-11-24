@@ -56,6 +56,36 @@ img{
  
  
 }
+.sava {
+	-webkit-user-select: none;
+	margin: auto;
+	background-color: hsla(0, 0%, 99%, 0);
+	transition: background-color 300ms;
+}
+.logo{
+	-webkit-user-select: none;
+	margin: auto;
+	cursor: zoom-in;
+	background-color: hsla(0, 0%, 99%, 0);
+	transition: background-color 300ms;
+}
+
+.dunloptires{
+	-webkit-user-select: none;
+	margin: auto;
+	cursor: zoom-in;
+	background-color: hsl(0, 76%, 45%);
+	transition: background-color 300ms;
+}
+
+.st0{
+	fill:#27509B;
+}
+
+.st1{
+	fill:#FFFFFF;
+
+}
 .year{
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;

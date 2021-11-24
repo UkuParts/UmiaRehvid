@@ -7,22 +7,6 @@ img{
 	width: 100%;
 	padding: 0px;
 }
-.container{
-	padding: 1px;
-	position: relative;
-}
-.container a{
-	margin: 50px;
-	line-height: 1.5;
-	color: white;
-	text-decoration: none;
-	font-size: 15px;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-.container a:hover{
-	text-decoration: underline;
-	color: #ECF4FA;
-}
 
 .tutvustus {
 	background-color: #efbe66;

@@ -26,6 +26,12 @@ img{
 
 .tutvustus {
 	background-color: #efbe66;
+	font-size: 2em;
+    line-height: 1.2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: black;
+	grid-gap: 2em;
 }
 
 .grid{
@@ -35,17 +41,20 @@ img{
     align-items: center;
     grid-gap: 1em;
     grid-row-gap: 3.5em;
-    margin-top: 20px;
+    
 	background-color: white;
 	justify-items: center;
 
 }
 .box1{
+
   grid-column: 1/4;
   color: black;
-  font-weight: bolder;
+  
   font-size: 2rem;
   justify-items: start;
+ 
+ 
 }
 .year{
 	color: white;

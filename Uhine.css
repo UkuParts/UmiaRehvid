@@ -75,3 +75,7 @@ img{
 .tabel2{
     flex: 15%;
 }
+
+.center{
+	text-align: center;
+}

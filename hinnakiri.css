@@ -1,5 +1,5 @@
 body{
-	background-color: #efbe66;
+	background-color: gray;
 }
 select{
 	background-color: #ffd282;
@@ -14,7 +14,7 @@ table, th, td {
 .hinnakiri{
 	position: relative;
 	background-color: #efbe66;
-	margin: 0px 180px;
+	margin: 0% 20%;
 }
 .gap{
 	height: 10px;
@@ -22,4 +22,7 @@ table, th, td {
 }
 .row{
 	display: flex
+}
+.bg{
+	background-color: #efbe66;
 }
